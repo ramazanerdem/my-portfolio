@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee&family=Bungee+Inline&family=Genos:wght@700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Firefox */
+* {
+  padding: 0;
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: transparent #252525;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  scrollbar-color: black;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #252525;
+  border-radius: 14px;
+}
+
+@media (max-width: 640px) {
+  *::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    scrollbar-color: black;
+  }
+}
