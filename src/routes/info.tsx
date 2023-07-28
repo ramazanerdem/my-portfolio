@@ -1,7 +1,7 @@
 const Info = () => {
   return (
-    <section className="max-w-6xl w-2/5 my-20 flex flex-col gap-10 font-sans text-justify text-xl font-semibold text-white text-opacity-70 selection:bg-cyan-500 selection:text-pink-700">
-      <h1 className="text-center font-bungee  text-4xl text-cyan-700">
+    <section className="max-w-6xl w-4/5 md:w-2/5 flex flex-col gap-10 font-sans text-justify mt-12 mb-20 text-lg md:text-xl font-semibold text-white text-opacity-70 selection:bg-cyan-500 selection:text-pink-700">
+      <h1 className="text-center font-bungee text-2xl md:text-4xl text-cyan-700">
         Who am i
       </h1>
       <p>

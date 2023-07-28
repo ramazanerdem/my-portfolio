@@ -3,7 +3,7 @@ import ramo from '/ramo-network.svg'
 
 const Footer = () => {
   return (
-    <footer className="bg-black dark:bg-gray-900">
+    <footer className="bg-black pb-8 md:pb-0">
       <div className="max-w-6xl w-3/4 mx-auto py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="flex mb-6 md:-mb-2">
@@ -20,10 +20,10 @@ const Footer = () => {
                 <li className="mb-4">
                   <a
                     target="_blank"
-                    href="https://flowbite.com/"
+                    href="https://daisyui.com/"
                     className="hover:underline"
                   >
-                    Flowbite
+                    daisyUI
                   </a>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-white text-opacity-90 uppercase">
-                Follow us
+                Follow me
               </h2>
               <ul className="text-white text-opacity-50 font-medium">
                 <li className="mb-4">
@@ -68,12 +68,12 @@ const Footer = () => {
               </h2>
               <ul className="text-white text-opacity-50 font-medium">
                 <li className="mb-4">
-                  <a target="_blank" href="#" className="hover:underline">
+                  <a target="_blank" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="#" className="hover:underline">
+                  <a target="_blank" className="hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
