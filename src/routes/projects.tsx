@@ -25,7 +25,7 @@ const Projects = () => {
   }
   return (
     <section className="mt-12 my-20 w-5/6 md:w-2/4 font-sans flex flex-col gap-10">
-      <h1 className="text-center font-bungee text-2xl text-lime-400">
+      <h1 className="text-center font-bungee text-2xl md:text-4xl text-lime-400">
         Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
