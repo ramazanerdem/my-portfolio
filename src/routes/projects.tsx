@@ -40,7 +40,7 @@ const Projects = () => {
                   src={project.image}
                   alt=""
                   loading="lazy"
-                  className="h-full transition-all duration-300"
+                  className="w-full transition-all duration-300"
                 />
 
                 <div className="normal-case space-y-5">
