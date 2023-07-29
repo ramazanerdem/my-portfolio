@@ -1,6 +1,7 @@
 export interface IProject {
-  id: number
+  id: string
   title: string
   image: string
   description: string
+  live_url: string
 }
