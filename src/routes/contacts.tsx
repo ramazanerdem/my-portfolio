@@ -1,4 +1,3 @@
-import react from '/react.svg'
 import linkedin from '/linkedin-blue.svg'
 import gmail from '/gmail.svg'
 import github from '/github.svg'
