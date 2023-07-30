@@ -9,14 +9,17 @@ const Tech = () => {
       </h1>
       <div className="space-y-3 font-blackOpsOne">
         {techs.map((tech: ITech) => (
-          <div key={tech.id} className="collapse bg-cyan-600 bg-opacity-10">
+          <div
+            key={tech.id}
+            className="collapse md:px-2 rounded-lg bg-cyan-600 bg-opacity-10"
+          >
             <input type="radio" name="my-accordion-1" />
-            <div className="flex items-center gap-10 h-20 md:h-32 collapse-title text-xl font-medium">
+            <div className="flex items-center gap-4 md:gap-7 h-20 md:h-32 collapse-title text-lg md:text-xl">
               <img className="w-10 md:w-20" src={tech.img} alt="" />
-              {tech.tech}
+              <h2>{tech.tech}</h2>
             </div>
             <div className="collapse-content">
-              <p className="text-md">{tech.description}</p>
+              <p className="text-sm md:text-lg">{tech.description}</p>
             </div>
           </div>
         ))}
