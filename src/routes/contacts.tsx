@@ -13,8 +13,8 @@ const Contacts = () => {
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title font-medium">
             <img className="w-8 md:w-20" src={github} alt="" />
             <div>
-              <h2 className="text-gray-400 text-sm md:text-lg">Github</h2>
-              <p className="text-xs md:text-xl">linkedin.com/in/ramazanerdem</p>
+              <h2 className="text-gray-400 text-xl md:text-lg">Github</h2>
+              <p className="text-sm md:text-xl">linkedin.com/in/ramazanerdem</p>
             </div>
           </div>
         </div>
@@ -22,8 +22,8 @@ const Contacts = () => {
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title text-xl font-medium">
             <img className="w-8 md:w-20" src={linkedin} alt="" />
             <div>
-              <h2 className="text-blue-400 text-sm md:text-lg">Linkedin</h2>
-              <p className="text-xs md:text-xl">linkedin.com/in/ramazanerdem</p>
+              <h2 className="text-blue-400 text-xl md:text-lg">Linkedin</h2>
+              <p className="text-sm md:text-xl">linkedin.com/in/ramazanerdem</p>
             </div>
           </div>
         </div>
@@ -31,8 +31,8 @@ const Contacts = () => {
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title text-xl font-medium">
             <img className="w-8 md:w-20" src={gmail} alt="" />
             <div>
-              <h2 className="text-red-500 text-sm md:text-lg">E-Mail</h2>
-              <p className="text-xs md:text-xl">ramazan.erdem.du@gmail.com</p>
+              <h2 className="text-red-500 text-xl md:text-lg">E-Mail</h2>
+              <p className="text-sm md:text-xl">ramazan.erdem.du@gmail.com</p>
             </div>
           </div>
         </div>
