@@ -32,7 +32,7 @@ const Contacts = () => {
             <img className="w-8 md:w-20" src={gmail} alt="" />
             <div>
               <h2 className="text-red-500 text-xl md:text-lg">E-Mail</h2>
-              <p className="text-sm md:text-xl">ramazan.erdem.du@gmail.com</p>
+              <p className="text-sm md:text-xl">info@ramo.network</p>
             </div>
           </div>
         </div>
