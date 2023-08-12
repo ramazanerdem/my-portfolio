@@ -1,6 +1,7 @@
 import linkedin from '/linkedin-blue.svg'
 import gmail from '/gmail.svg'
 import github from '/github.svg'
+import { NavLink } from 'react-router-dom'
 
 const Contacts = () => {
   return (
@@ -14,7 +15,12 @@ const Contacts = () => {
             <img className="w-8 md:w-20" src={github} alt="" />
             <div>
               <h2 className="text-gray-400 text-xl md:text-lg">Github</h2>
-              <p className="text-sm md:text-xl">linkedin.com/in/ramazanerdem</p>
+              <NavLink
+                to="https://github.com/ramazanerdem"
+                className="text-sm md:text-xl"
+              >
+                github.com/ramazanerdem
+              </NavLink>
             </div>
           </div>
         </div>
@@ -23,7 +29,12 @@ const Contacts = () => {
             <img className="w-8 md:w-20" src={linkedin} alt="" />
             <div>
               <h2 className="text-blue-400 text-xl md:text-lg">Linkedin</h2>
-              <p className="text-sm md:text-xl">linkedin.com/in/ramazanerdem</p>
+              <NavLink
+                to="https://www.linkedin.com/in/ramazanerdem/"
+                className="text-sm md:text-xl"
+              >
+                linkedin.com/in/ramazanerdem
+              </NavLink>
             </div>
           </div>
         </div>
@@ -32,7 +43,12 @@ const Contacts = () => {
             <img className="w-8 md:w-20" src={gmail} alt="" />
             <div>
               <h2 className="text-red-500 text-xl md:text-lg">E-Mail</h2>
-              <p className="text-sm md:text-xl">info@ramo.network</p>
+              <NavLink
+                to="mailto:info@ramo.network"
+                className="text-sm md:text-xl"
+              >
+                info@ramo.network
+              </NavLink>
             </div>
           </div>
         </div>
