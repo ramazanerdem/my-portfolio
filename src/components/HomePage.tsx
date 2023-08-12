@@ -53,7 +53,7 @@ const HomePage = () => {
           <article className="flex justify-end items-center relative w-3/4 mt-20 mb-96 md:mb-32">
             <article className="z-10 absolute left-0 font-genos w-10/12">
               <p className="text-4xl">
-                That's one small step for mankind,
+                These're one small steps for mankind,
                 <br />
                 giant projects for me.
               </p>
