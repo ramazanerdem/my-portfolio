@@ -17,6 +17,7 @@ const Contacts = () => {
               <h2 className="text-gray-400 text-xl md:text-lg">Github</h2>
               <NavLink
                 to="https://github.com/ramazanerdem"
+                target="_blank"
                 className="text-sm md:text-xl"
               >
                 github.com/ramazanerdem
@@ -31,6 +32,7 @@ const Contacts = () => {
               <h2 className="text-blue-400 text-xl md:text-lg">Linkedin</h2>
               <NavLink
                 to="https://www.linkedin.com/in/ramazanerdem/"
+                target="_blank"
                 className="text-sm md:text-xl"
               >
                 linkedin.com/in/ramazanerdem
@@ -45,6 +47,7 @@ const Contacts = () => {
               <h2 className="text-red-500 text-xl md:text-lg">E-Mail</h2>
               <NavLink
                 to="mailto:info@ramo.network"
+                target="_blank"
                 className="text-sm md:text-xl"
               >
                 info@ramo.network
