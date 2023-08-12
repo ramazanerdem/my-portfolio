@@ -85,13 +85,9 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-white text-opacity-50 sm:text-center">
             © 2023{' '}
-            <a
-              target="_blank"
-              href="https://flowbite.com/"
-              className="hover:underline"
-            >
+            <NavLink to="https://ramo.network/" className="hover:underline">
               RamazanErdem™
-            </a>
+            </NavLink>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
