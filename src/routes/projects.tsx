@@ -43,7 +43,7 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
         {projects.map((project: IProject) =>
-          !isLoaded ? (
+          isLoaded ? (
             <article className="" key={project.id}>
               <button
                 className="bg-lime-600 bg-opacity-20 hover:bg-black hover:text-lime-400 transition-colors duration-300 rounded-md flex justify-center items-center w-full h-full p-0 overflow-hidden"
