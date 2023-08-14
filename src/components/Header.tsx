@@ -36,10 +36,10 @@ const Header: React.FC<IOpen> = ({ isOpen, setIsOpen }) => {
         <nav className="flex gap-6 items-center">
           <ul
             className={`${
-              isOpen ? 'translate-x-0 ' : '-translate-x-72 md:translate-x-0'
-            } bg-black text-xs xl:text-sm absolute md:static min-h-screen md:min-h-0 flex-col md:flex-row px-5 md:px-0 pt-8 md:pt-0 left-0 top-0 z-10 w-2/3 md:w-auto md:flex md:justify-between md:items-center gap-6 space-y-10 md:space-y-0 transition-all duration-300`}
+              isOpen ? 'translate-x-0 ' : '-translate-x-full md:translate-x-0'
+            } bg-black text-xs xl:text-sm absolute md:static min-h-screen md:min-h-0 flex-col md:flex-row px-5 md:px-0 pt-8 md:pt-0 left-0 top-0 z-10 w-2/3 md:w-auto md:flex md:justify-between md:items-center gap-2 lg:gap-6 space-y-10 md:space-y-0 transition-all duration-300`}
           >
-            <li>
+            <li className="w-20">
               <NavLink
                 className="font-bungee text-white text-opacity-50 hover:text-opacity-40 transition-colors duration-200"
                 to="info"
@@ -71,12 +71,16 @@ const Header: React.FC<IOpen> = ({ isOpen, setIsOpen }) => {
                 contacts
               </NavLink>
             </li>
-            <li>
-              <NavLink target="_blank" to="https://github.com/ramazanerdem">
+            <li className="w-5">
+              <NavLink
+                className="w-5"
+                target="_blank"
+                to="https://github.com/ramazanerdem"
+              >
                 <img className="w-5" src={github} />
               </NavLink>
             </li>
-            <li>
+            <li className="w-6">
               <NavLink
                 target="_blank"
                 to="https://linkedin.com/in/ramazanerdem"

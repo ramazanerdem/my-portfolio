@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { projects } from '../data/projects'
 import { IProject } from '../types/dataTypes'
+import { useState } from 'react'
 
 const Projects = () => {
   // const modalClick = () => {
@@ -15,6 +16,7 @@ const Projects = () => {
   //     modal.showModal()
   //   }
   // }
+  // const [isLoaded, setIsLoaded] = useState(false)
 
   const modalClick = (id: string) => {
     const modalId = `my_modal_${id}`
@@ -36,12 +38,16 @@ const Projects = () => {
               onClick={() => modalClick(project.id)}
             >
               <div className="flex flex-col justify-between items-center w-full space-y-5">
-                <img
-                  src={project.image}
-                  alt=""
-                  loading="lazy"
-                  className="w-full transition-all duration-300"
-                />
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt=""
+                    loading="lazy"
+                    className="w-full transition-all duration-300"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gray-300 animate-pulse"></div>
+                )}
 
                 <div className="normal-case space-y-5">
                   <h2 className="font-blackOpsOne text-md">{project.title}</h2>
@@ -55,13 +61,22 @@ const Projects = () => {
                   {project.title}
                 </h3>
                 <p className="py-4">{project.description}</p>
-                <NavLink
-                  className="btn glass w-full md:w-28"
-                  to={project.live_url}
-                  target="_blank"
-                >
-                  Live
-                </NavLink>
+                <div className="menu menu-vertical lg:menu-horizontal space-y-2 md:space-y-0 md:space-x-2 bg-base-200 rounded-box">
+                  <NavLink
+                    className="btn btn-outline btn-neutral rounded-xl md:w-32"
+                    to={project.live_url}
+                    target="_blank"
+                  >
+                    Live
+                  </NavLink>
+                  <NavLink
+                    className="btn btn-outline btn-neutral rounded-xl md:w-32"
+                    to={project.github_url}
+                    target="_blank"
+                  >
+                    Github
+                  </NavLink>
+                </div>
               </form>
               <form method="dialog" className="modal-backdrop">
                 <button>close</button>

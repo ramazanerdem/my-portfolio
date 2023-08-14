@@ -4,4 +4,5 @@ export interface IProject {
   image: string
   description: string
   live_url: string
+  github_url: string
 }
