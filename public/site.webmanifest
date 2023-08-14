@@ -9,6 +9,12 @@
   "background_color": "#ffffff",
   "icons": [
     {
+      "src": "/decentralization.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "/decentral.png",
       "sizes": "512x512",
       "type": "image/png"
@@ -16,7 +22,8 @@
     {
       "src": "/decentral.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "orientation": "portrait"
