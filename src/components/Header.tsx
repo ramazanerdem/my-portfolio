@@ -27,10 +27,14 @@ const Header: React.FC<IOpen> = ({ isOpen, setIsOpen }) => {
       <div className="max-w-6xl w-3/4 mx-auto flex justify-center md:justify-between">
         <nav className="mt-1 flex justify-between items-center gap-10">
           <NavLink to="/">
-            <img className="w-48 md:w-64" src={ramo} />
+            <img
+              className="w-48 md:w-64"
+              src={ramo}
+              alt={ramo.substring(1, ramo.indexOf('.'))}
+            />
           </NavLink>
           <button onClick={isOpenClick} className="md:hidden">
-            <img src={menu} alt="" />
+            <img src={menu} alt={menu.substring(1, menu.indexOf('.'))} />
           </button>
         </nav>
         <nav className="flex gap-6 items-center">
@@ -77,7 +81,11 @@ const Header: React.FC<IOpen> = ({ isOpen, setIsOpen }) => {
                 target="_blank"
                 to="https://github.com/ramazanerdem"
               >
-                <img className="w-5" src={github} />
+                <img
+                  className="w-5"
+                  src={github}
+                  alt={github.substring(1, github.indexOf('.'))}
+                />
               </NavLink>
             </li>
             <li className="w-6">
@@ -85,7 +93,11 @@ const Header: React.FC<IOpen> = ({ isOpen, setIsOpen }) => {
                 target="_blank"
                 to="https://linkedin.com/in/ramazanerdem"
               >
-                <img className="w-6" src={linkedin} />
+                <img
+                  className="w-6"
+                  src={linkedin}
+                  alt={linkedin.substring(1, linkedin.indexOf('.'))}
+                />
               </NavLink>
             </li>
 

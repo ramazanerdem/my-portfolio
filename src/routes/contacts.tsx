@@ -12,7 +12,11 @@ const Contacts = () => {
       <div className="space-y-3 font-genos">
         <div className="bg-cyan-600 md:px-2 bg-opacity-10">
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title font-medium">
-            <img className="w-8 md:w-20" src={github} alt="" />
+            <img
+              className="w-8 md:w-20"
+              src={github}
+              alt={github.substring(1, github.indexOf('.'))}
+            />
             <div>
               <h2 className="text-gray-400 text-xl md:text-lg">Github</h2>
               <NavLink
@@ -27,7 +31,11 @@ const Contacts = () => {
         </div>
         <div className="bg-cyan-600 md:px-2 bg-opacity-10">
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title text-xl font-medium">
-            <img className="w-8 md:w-20" src={linkedin} alt="" />
+            <img
+              className="w-8 md:w-20"
+              src={linkedin}
+              alt={linkedin.substring(1, linkedin.indexOf('.'))}
+            />
             <div>
               <h2 className="text-blue-400 text-xl md:text-lg">Linkedin</h2>
               <NavLink
@@ -42,7 +50,11 @@ const Contacts = () => {
         </div>
         <div className="bg-cyan-600 md:px-2 bg-opacity-10">
           <div className="flex items-center gap-4 md:gap-10 h-16 md:h-32 collapse-title text-xl font-medium">
-            <img className="w-8 md:w-20" src={gmail} alt="" />
+            <img
+              className="w-8 md:w-20"
+              src={gmail}
+              alt={gmail.substring(1, gmail.indexOf('.'))}
+            />
             <div>
               <h2 className="text-red-500 text-xl md:text-lg">E-Mail</h2>
               <NavLink

@@ -29,7 +29,7 @@ const HomePage = () => {
             <img
               className="max-w-6xl w-full md:w-3/4 scale-150 md:scale-100 rotate-90 md:rotate-0"
               src={gif}
-              alt=""
+              alt={gif.substring(1, gif.indexOf('.'))}
             />
             <TypeAnimation
               sequence={[
@@ -68,6 +68,7 @@ const HomePage = () => {
             <img
               className=" z-0 rotate-90 md:rotate-0 max-w-6xl scale-150 md:scale-100 w-10/12 md:w-8/12 -me-5 opacity-60"
               src={mesh}
+              alt={mesh.substring(1, mesh.indexOf('.'))}
             />
           </article>
         </section>

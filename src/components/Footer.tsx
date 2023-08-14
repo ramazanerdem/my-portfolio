@@ -2,13 +2,18 @@ import { NavLink } from 'react-router-dom'
 import ramo from '/ramo-network.svg'
 
 const Footer = () => {
+  console.log(ramo.substring(1, ramo.indexOf('.')))
   return (
     <footer className="bg-black pb-8 md:pb-0">
       <div className="max-w-6xl w-3/4 mx-auto py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="flex mb-6 md:-mb-2">
             <NavLink className="self-end" to="/">
-              <img src={ramo} className="h-8" alt="FlowBite Logo" />
+              <img
+                src={ramo}
+                className="h-8"
+                alt={ramo.substring(1, ramo.indexOf('.'))}
+              />
             </NavLink>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

@@ -52,7 +52,7 @@ const Projects = () => {
                 <div className="flex flex-col justify-between items-center w-full space-y-5">
                   <img
                     src={project.image}
-                    alt=""
+                    alt={project.image.substring(1, project.image.indexOf('.'))}
                     loading="lazy"
                     className="w-full h-52"
                   />

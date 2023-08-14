@@ -36,13 +36,41 @@ export const techs = [
   },
   {
     id: '6',
+    tech: 'Node.js',
+    description:
+      'Node.js is a runtime environment for building fast and scalable network applications. Thanks to this technology, by running JavaScript on the server side, it becomes possible to develop both client-side and server-side using a single programming language. I have developed my asynchronous programming skills using Node.js, and I have the ability to effectively write asynchronous code for database operations, file read/write and HTTP requests. I also have the ability to integrate different modules using the package manager npm.',
+    img: '/nodejs.svg',
+  },
+  {
+    id: '7',
+    tech: 'Express.js',
+    description:
+      'Express.js is a fast, flexible and minimalist web application framework for building Node.js based web applications. I have used Express.js to develop powerful APIs and web services, and with my experience in route management, middleware, and HTTP request handling, I have the ability to write efficient and organised code.',
+    img: '/expressjs.svg',
+  },
+  {
+    id: '8',
+    tech: 'MongoDB',
+    description:
+      "MongoDB is a document-based NoSQL database and stores data as JSON-like documents. Using this technology, I can flexibly manage the structure of data and develop scalable applications. I have the ability to effectively build database queries using the MongoDB query language. I have the ability to provide effective communication between the application and the database using MongoDB's driver compatible with Node.js.",
+    img: '/mongodb.svg',
+  },
+  {
+    id: '9',
     tech: 'Next.js',
     description:
       'Next.js is a React-based JavaScript framework and offers performance-enhancing features, especially SSR (Server-Side Rendering) and pre-rendering. As a React developer, I can develop applications in a fast and SEO-friendly way and improve the user experience using Next.js. With Next.js, I can do page-based preloading, use data fetching methods, manage redirects and optimise application performance using a number of advanced features.',
     img: '/next.svg',
   },
   {
-    id: '7',
+    id: '10',
+    tech: 'SWR',
+    description:
+      'SWR is a technique used for client-side cache management and data exchange. Using this technique, I can improve the performance of web applications and optimise data exchange operations. Using the SWR library, I have the ability to manage client-side data caching, data validity checking and revalidation. In this way, I can effectively manage network traffic while improving the user experience. By understanding the principles of SWR, I can make my applications more responsive and efficient.',
+    img: '/swr.svg',
+  },
+  {
+    id: '11',
     tech: 'NPM Packages',
     description:
       'NPM (Node Package Manager) is a package management system for managing and deploying JavaScript packages. In my React projects, I can use NPM to manage external dependencies and structure the project efficiently. I can install and update packages, switch between packages, and adjust package management according to application requirements.',
