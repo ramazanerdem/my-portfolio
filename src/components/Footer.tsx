@@ -73,14 +73,12 @@ const Footer = () => {
               </h2>
               <ul className="text-white text-opacity-50 font-medium">
                 <li className="mb-4">
-                  <a target="_blank" className="hover:underline">
-                    Privacy Policy
-                  </a>
+                  <span className="hover:underline">Privacy Policy</span>
                 </li>
                 <li>
-                  <a target="_blank" className="hover:underline">
+                  <span className="hover:underline">
                     Terms &amp; Conditions
-                  </a>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -190,7 +188,7 @@ const Footer = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Dribbble account</span>
+              <span className="sr-only">Dribble account</span>
             </a>
           </div>
         </div>
